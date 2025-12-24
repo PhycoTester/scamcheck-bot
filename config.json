@@ -1,0 +1,16 @@
+{
+  "autoscan_enabled": true,
+  "autoscan_channels_allowlist": [],
+  "autoscan_channels_blocklist": [],
+  "reply_ephemeral_on_autoscan": false,
+  "max_urls_per_message": 3,
+  "cooldown_seconds_per_user": 10,
+
+  "blocked_domains": ["youtube.com", "www.youtube.com", "youtu.be"],
+  "shortener_domains": ["tinyurl.com", "bit.ly", "t.co", "is.gd", "cutt.ly", "rb.gy", "lnkd.in"],
+
+  "high_abuse_suffixes": ["herokuapp.com", "vercel.app", "netlify.app", "github.io", "pages.dev", "glitch.me"],
+
+  "enable_virustotal": true,
+  "enable_urlscan": true
+}
